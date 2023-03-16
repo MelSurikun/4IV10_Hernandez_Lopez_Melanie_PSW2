@@ -1,21 +1,14 @@
-@import "https://fonts.googleapis.com/css2?family=Megrim&display=swap";
-body {
-  overflow: hidden;
-  margin: 0;
-}
-#word {
-  font-family: Megrim, cursive;
-  font-size: 20vh;
-  position: absolute;
-  margin: 10;
-  /*bottom: 0;*/
-  color: #fc0;
-  -webkit-text-stroke: 0.15vh #c0f;
+*{
+  background: #787da3; 
+  background: -moz-linear-gradient(to right,  #787da3 1%,#d8aa9e 50%,#a07974 100%); 
+  background: -webkit-linear-gradient(to right,  #787da3 1%,#d8aa9e 50%,#a07974 100%); 
+  background: linear-gradient(to right,  #787da3 1%,#d8aa9e 50%,#a07974 100%);
 }
 
-html,
-body {
-  height: 100%;
+div {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: #fff;
 }
 
 .wrap {
@@ -26,14 +19,14 @@ body {
 }
 
 .button {
-  width: 140px;
-  height: 45px;
+  width: 340px;
+  height: 145px;
   font-family: "Roboto", sans-serif;
-  font-size: 11px;
+  font-size: 31px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
   font-weight: 500;
-  color: #000;
+  color: #fff;
   background-color: #fddb92;
   border: none;
   border-radius: 45px;
@@ -46,6 +39,6 @@ body {
 .button:hover {
   background-color: #000000;
   box-shadow: 0px 15px 20px rgba(96, 79, 19, 0.5);
-  color: #fff;
+  color: #000;
   transform: translateY(-7px);
 }

@@ -10,6 +10,7 @@ body {
   font-family: "Poiret One", cursive, helvetica;
   font-size: 100%;
   line-height: 1.3;
+  text-align: justify;
 }
 
 p {
